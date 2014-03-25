@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TryBehavior.h"
+#import "TableViewController.h"
 
-@interface tryViewController : UIViewController
+@interface tryViewController : UIViewController <UIGestureRecognizerDelegate, UIViewControllerTransitioningDelegate>
+
+@property TableViewController *tbvc;
+
+@property NSMutableArray *pickedFoods;
+
+
+- (IBAction)transition:(id)sender;
+
+-(void)printFoodsFromArray;
+
 
 @end

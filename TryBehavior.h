@@ -1,5 +1,5 @@
 //
-//  tryAppDelegate.h
+//  TryBehavior.h
 //  TesteDynamic
 //
 //  Created by LUCAS TEIXEIRA DE OLIVEIRA on 11/03/14.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface  tryAppDelegate : UIResponder <UIApplicationDelegate>
+@interface TryBehavior : UIDynamicBehavior
 
-@property (strong, nonatomic) UIWindow *window;
+-(void)addItem:(id<UIDynamicItem>)item;
+-(void)removeItem:(id<UIDynamicItem>)item;
 
 @end

@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4276A9818D8DCBE009B51D7 /* Diagonal.m in Sources */ = {isa = PBXBuildFile; fileRef = D4276A9718D8DCBE009B51D7 /* Diagonal.m */; };
+		D42F949518DB7449004AEC19 /* CircleCustomGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = D42F949418DB7449004AEC19 /* CircleCustomGesture.m */; };
+		D42F949818DB78A7004AEC19 /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42F949718DB78A7004AEC19 /* InitialViewController.m */; };
+		D42F949C18DB7B94004AEC19 /* botao_view1.png in Resources */ = {isa = PBXBuildFile; fileRef = D42F949A18DB7B94004AEC19 /* botao_view1.png */; };
+		D42F949D18DB7B94004AEC19 /* layout_dropfood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D42F949B18DB7B94004AEC19 /* layout_dropfood.jpg */; };
+		D42F94A018DB7D40004AEC19 /* foodcard.png in Resources */ = {isa = PBXBuildFile; fileRef = D42F949E18DB7D40004AEC19 /* foodcard.png */; };
+		D42F94A118DB7D40004AEC19 /* layout_view2.png in Resources */ = {isa = PBXBuildFile; fileRef = D42F949F18DB7D40004AEC19 /* layout_view2.png */; };
+		D42F94A318DB7E52004AEC19 /* layout_view3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D42F94A218DB7E52004AEC19 /* layout_view3.jpg */; };
+		D42F94A718DB8392004AEC19 /* coxinha.png in Resources */ = {isa = PBXBuildFile; fileRef = D42F94A618DB8392004AEC19 /* coxinha.png */; };
+		D42F94A918DB8DE0004AEC19 /* magnum.png in Resources */ = {isa = PBXBuildFile; fileRef = D42F94A818DB8DE0004AEC19 /* magnum.png */; };
+		D42F94AB18DB8DF8004AEC19 /* sucolaranja.png in Resources */ = {isa = PBXBuildFile; fileRef = D42F94AA18DB8DF8004AEC19 /* sucolaranja.png */; };
 		D4D5ED2918CFA85D00BC3B51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D5ED2818CFA85D00BC3B51 /* Foundation.framework */; };
 		D4D5ED2B18CFA85D00BC3B51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D5ED2A18CFA85D00BC3B51 /* CoreGraphics.framework */; };
 		D4D5ED2D18CFA85D00BC3B51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D5ED2C18CFA85D00BC3B51 /* UIKit.framework */; };
@@ -22,6 +33,9 @@
 		D4D5ED4D18CFA85D00BC3B51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D5ED2C18CFA85D00BC3B51 /* UIKit.framework */; };
 		D4D5ED5518CFA85D00BC3B51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4D5ED5318CFA85D00BC3B51 /* InfoPlist.strings */; };
 		D4D5ED5718CFA85D00BC3B51 /* TesteDynamicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D5ED5618CFA85D00BC3B51 /* TesteDynamicTests.m */; };
+		D4D5ED6218CFA99800BC3B51 /* TryBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D5ED6118CFA99800BC3B51 /* TryBehavior.m */; };
+		D4E0984118D0D6E200DB021C /* foodCard.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E0984018D0D6E200DB021C /* foodCard.m */; };
+		D4EC3BB018DA0EEE0078AF68 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EC3BAF18DA0EEE0078AF68 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D4276A9618D8DCBE009B51D7 /* Diagonal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Diagonal.h; sourceTree = SOURCE_ROOT; };
+		D4276A9718D8DCBE009B51D7 /* Diagonal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Diagonal.m; sourceTree = SOURCE_ROOT; };
+		D42F949318DB7449004AEC19 /* CircleCustomGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleCustomGesture.h; sourceTree = SOURCE_ROOT; };
+		D42F949418DB7449004AEC19 /* CircleCustomGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleCustomGesture.m; sourceTree = SOURCE_ROOT; };
+		D42F949618DB78A7004AEC19 /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		D42F949718DB78A7004AEC19 /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
+		D42F949A18DB7B94004AEC19 /* botao_view1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = botao_view1.png; path = "images_app/view 1/botao_view1.png"; sourceTree = SOURCE_ROOT; };
+		D42F949B18DB7B94004AEC19 /* layout_dropfood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = layout_dropfood.jpg; path = "images_app/view 1/layout_dropfood.jpg"; sourceTree = SOURCE_ROOT; };
+		D42F949E18DB7D40004AEC19 /* foodcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foodcard.png; path = "images_app/view 2/foodcard.png"; sourceTree = SOURCE_ROOT; };
+		D42F949F18DB7D40004AEC19 /* layout_view2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = layout_view2.png; path = "images_app/view 2/layout_view2.png"; sourceTree = SOURCE_ROOT; };
+		D42F94A218DB7E52004AEC19 /* layout_view3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = layout_view3.jpg; path = "images_app/view 3/layout_view3.jpg"; sourceTree = SOURCE_ROOT; };
+		D42F94A618DB8392004AEC19 /* coxinha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coxinha.png; path = images_app/Foods/coxinha.png; sourceTree = SOURCE_ROOT; };
+		D42F94A818DB8DE0004AEC19 /* magnum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = magnum.png; path = images_app/foods/magnum.png; sourceTree = SOURCE_ROOT; };
+		D42F94AA18DB8DF8004AEC19 /* sucolaranja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sucolaranja.png; path = images_app/foods/sucolaranja.png; sourceTree = SOURCE_ROOT; };
 		D4D5ED2518CFA85D00BC3B51 /* TesteDynamic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesteDynamic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D5ED2818CFA85D00BC3B51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D4D5ED2A18CFA85D00BC3B51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +83,12 @@
 		D4D5ED5218CFA85D00BC3B51 /* TesteDynamicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TesteDynamicTests-Info.plist"; sourceTree = "<group>"; };
 		D4D5ED5418CFA85D00BC3B51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D4D5ED5618CFA85D00BC3B51 /* TesteDynamicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TesteDynamicTests.m; sourceTree = "<group>"; };
+		D4D5ED6018CFA99800BC3B51 /* TryBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TryBehavior.h; path = ../TryBehavior.h; sourceTree = "<group>"; };
+		D4D5ED6118CFA99800BC3B51 /* TryBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TryBehavior.m; path = ../TryBehavior.m; sourceTree = "<group>"; };
+		D4E0983F18D0D6E200DB021C /* foodCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = foodCard.h; path = ../foodCard.h; sourceTree = "<group>"; };
+		D4E0984018D0D6E200DB021C /* foodCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = foodCard.m; path = ../foodCard.m; sourceTree = "<group>"; };
+		D4EC3BAE18DA0EEE0078AF68 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = SOURCE_ROOT; };
+		D4EC3BAF18DA0EEE0078AF68 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +115,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D42F949918DB7B7C004AEC19 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D42F94AA18DB8DF8004AEC19 /* sucolaranja.png */,
+				D42F94A818DB8DE0004AEC19 /* magnum.png */,
+				D42F94A618DB8392004AEC19 /* coxinha.png */,
+				D42F94A218DB7E52004AEC19 /* layout_view3.jpg */,
+				D42F949A18DB7B94004AEC19 /* botao_view1.png */,
+				D42F949B18DB7B94004AEC19 /* layout_dropfood.jpg */,
+				D42F949E18DB7D40004AEC19 /* foodcard.png */,
+				D42F949F18DB7D40004AEC19 /* layout_view2.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		D4D5ED1C18CFA85C00BC3B51 = {
 			isa = PBXGroup;
 			children = (
@@ -114,12 +163,25 @@
 		D4D5ED2E18CFA85D00BC3B51 /* TesteDynamic */ = {
 			isa = PBXGroup;
 			children = (
+				D4E0983F18D0D6E200DB021C /* foodCard.h */,
+				D4E0984018D0D6E200DB021C /* foodCard.m */,
+				D4EC3BAE18DA0EEE0078AF68 /* TableViewController.h */,
+				D4EC3BAF18DA0EEE0078AF68 /* TableViewController.m */,
+				D42F949318DB7449004AEC19 /* CircleCustomGesture.h */,
+				D42F949418DB7449004AEC19 /* CircleCustomGesture.m */,
+				D42F949618DB78A7004AEC19 /* InitialViewController.h */,
+				D42F949718DB78A7004AEC19 /* InitialViewController.m */,
+				D4276A9618D8DCBE009B51D7 /* Diagonal.h */,
+				D4276A9718D8DCBE009B51D7 /* Diagonal.m */,
+				D4D5ED6018CFA99800BC3B51 /* TryBehavior.h */,
+				D4D5ED6118CFA99800BC3B51 /* TryBehavior.m */,
 				D4D5ED3718CFA85D00BC3B51 /* tryAppDelegate.h */,
 				D4D5ED3818CFA85D00BC3B51 /* tryAppDelegate.m */,
 				D4D5ED3A18CFA85D00BC3B51 /* Main_iPhone.storyboard */,
 				D4D5ED3D18CFA85D00BC3B51 /* Main_iPad.storyboard */,
 				D4D5ED4018CFA85D00BC3B51 /* tryViewController.h */,
 				D4D5ED4118CFA85D00BC3B51 /* tryViewController.m */,
+				D42F949918DB7B7C004AEC19 /* Images */,
 				D4D5ED4318CFA85D00BC3B51 /* Images.xcassets */,
 				D4D5ED2F18CFA85D00BC3B51 /* Supporting Files */,
 			);
@@ -208,7 +270,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D4D5ED2018CFA85C00BC3B51 /* Build configuration list for PBXProject "TesteDynamic" */;
+			buildConfigurationList = D4D5ED2018CFA85C00BC3B51 /* Build configuration list for PBXProject "Drop Food" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -232,10 +294,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42F94A318DB7E52004AEC19 /* layout_view3.jpg in Resources */,
+				D42F94AB18DB8DF8004AEC19 /* sucolaranja.png in Resources */,
+				D42F949D18DB7B94004AEC19 /* layout_dropfood.jpg in Resources */,
 				D4D5ED3F18CFA85D00BC3B51 /* Main_iPad.storyboard in Resources */,
 				D4D5ED4418CFA85D00BC3B51 /* Images.xcassets in Resources */,
 				D4D5ED3C18CFA85D00BC3B51 /* Main_iPhone.storyboard in Resources */,
 				D4D5ED3318CFA85D00BC3B51 /* InfoPlist.strings in Resources */,
+				D42F94A118DB7D40004AEC19 /* layout_view2.png in Resources */,
+				D42F94A718DB8392004AEC19 /* coxinha.png in Resources */,
+				D42F949C18DB7B94004AEC19 /* botao_view1.png in Resources */,
+				D42F94A018DB7D40004AEC19 /* foodcard.png in Resources */,
+				D42F94A918DB8DE0004AEC19 /* magnum.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +324,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42F949818DB78A7004AEC19 /* InitialViewController.m in Sources */,
 				D4D5ED3918CFA85D00BC3B51 /* tryAppDelegate.m in Sources */,
 				D4D5ED3518CFA85D00BC3B51 /* main.m in Sources */,
+				D4276A9818D8DCBE009B51D7 /* Diagonal.m in Sources */,
 				D4D5ED4218CFA85D00BC3B51 /* tryViewController.m in Sources */,
+				D42F949518DB7449004AEC19 /* CircleCustomGesture.m in Sources */,
+				D4D5ED6218CFA99800BC3B51 /* TryBehavior.m in Sources */,
+				D4EC3BB018DA0EEE0078AF68 /* TableViewController.m in Sources */,
+				D4E0984118D0D6E200DB021C /* foodCard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +535,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D4D5ED2018CFA85C00BC3B51 /* Build configuration list for PBXProject "TesteDynamic" */ = {
+		D4D5ED2018CFA85C00BC3B51 /* Build configuration list for PBXProject "Drop Food" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4D5ED5818CFA85D00BC3B51 /* Debug */,
@@ -475,6 +551,7 @@
 				D4D5ED5C18CFA85D00BC3B51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4D5ED5D18CFA85D00BC3B51 /* Build configuration list for PBXNativeTarget "TesteDynamicTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +560,7 @@
 				D4D5ED5F18CFA85D00BC3B51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
