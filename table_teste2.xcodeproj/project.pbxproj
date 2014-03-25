@@ -19,12 +19,12 @@
 		0CBE0FEF18D22EEE0004999D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CBE0FD718D22EEE0004999D /* UIKit.framework */; };
 		0CBE0FF718D22EEE0004999D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CBE0FF518D22EEE0004999D /* InfoPlist.strings */; };
 		0CBE0FF918D22EEE0004999D /* table_teste2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBE0FF818D22EEE0004999D /* table_teste2Tests.m */; };
-		0CBE100418D22F030004999D /* foods.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBE100318D22F030004999D /* foods.m */; };
 		0CBE100818D22F200004999D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBE100618D22F200004999D /* TableViewController.m */; };
 		0CBE100918D22F200004999D /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CBE100718D22F200004999D /* TableViewController.xib */; };
 		0CBE100D18D22F970004999D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBE100B18D22F970004999D /* MainViewController.m */; };
 		0CBE100E18D22F970004999D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CBE100C18D22F970004999D /* MainViewController.xib */; };
 		ADACC58618DDF2E400E12429 /* FoodCard.m in Sources */ = {isa = PBXBuildFile; fileRef = ADACC58518DDF2E400E12429 /* FoodCard.m */; };
+		ADACC5CE18E2185300E12429 /* foods.m in Sources */ = {isa = PBXBuildFile; fileRef = ADACC5CD18E2185300E12429 /* foods.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,6 @@
 		0CBE0FF418D22EEE0004999D /* table_teste2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "table_teste2Tests-Info.plist"; sourceTree = "<group>"; };
 		0CBE0FF618D22EEE0004999D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0CBE0FF818D22EEE0004999D /* table_teste2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = table_teste2Tests.m; sourceTree = "<group>"; };
-		0CBE100218D22F030004999D /* foods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = foods.h; path = ../../teste_tabela/teste_tabela/foods.h; sourceTree = "<group>"; };
-		0CBE100318D22F030004999D /* foods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = foods.m; path = ../../teste_tabela/teste_tabela/foods.m; sourceTree = "<group>"; };
 		0CBE100518D22F200004999D /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
 		0CBE100618D22F200004999D /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
 		0CBE100718D22F200004999D /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableViewController.xib; path = ../TableViewController.xib; sourceTree = "<group>"; };
@@ -64,6 +62,8 @@
 		0CBE100C18D22F970004999D /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		ADACC58418DDF2E400E12429 /* FoodCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCard.h; sourceTree = "<group>"; };
 		ADACC58518DDF2E400E12429 /* FoodCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCard.m; sourceTree = "<group>"; };
+		ADACC5CC18E2185300E12429 /* foods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = foods.h; sourceTree = "<group>"; };
+		ADACC5CD18E2185300E12429 /* foods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = foods.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,8 +188,8 @@
 		ADACC57418DDE26000E12429 /* Foods */ = {
 			isa = PBXGroup;
 			children = (
-				0CBE100218D22F030004999D /* foods.h */,
-				0CBE100318D22F030004999D /* foods.m */,
+				ADACC5CC18E2185300E12429 /* foods.h */,
+				ADACC5CD18E2185300E12429 /* foods.m */,
 			);
 			name = Foods;
 			sourceTree = "<group>";
@@ -291,7 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CBE100418D22F030004999D /* foods.m in Sources */,
+				ADACC5CE18E2185300E12429 /* foods.m in Sources */,
 				ADACC58618DDF2E400E12429 /* FoodCard.m in Sources */,
 				0CBE0FE418D22EEE0004999D /* AppDelegate.m in Sources */,
 				0CBE0FE018D22EEE0004999D /* main.m in Sources */,

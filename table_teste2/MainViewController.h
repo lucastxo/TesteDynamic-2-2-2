@@ -19,6 +19,11 @@
 @property NSMutableArray *viewFoodsArray;
 @property(nonatomic, strong) UIDynamicAnimator *animator;
 
+@property(nonatomic, strong) UIGravityBehavior *gravity;
+@property(nonatomic, strong) UICollisionBehavior *collision;
+
+
+
 - (IBAction)removeFoosViews:(id)sender;
 
 - (IBAction)transition:(id)sender;

@@ -27,6 +27,8 @@
         [[self tbvc]setDelegate:self];
         _viewFoodsArray = [[NSMutableArray alloc]init];
         _animator = [[UIDynamicAnimator alloc]initWithReferenceView:self.view];
+        _gravity = [[UIGravityBehavior alloc]init];
+        _collision = [[UICollisionBehavior alloc]init];
         
     }
     return self;
@@ -38,9 +40,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
   
+   
     
-    
-    
+ 
     
    
    
@@ -49,17 +51,26 @@
     
     for (foods *f in _pickedFoods) {
         
-        FoodCard *foodCard = [[FoodCard alloc]initWithFrame:CGRectMake(0, 10, 320, 70)];
+        int py = 0;
+        
+        FoodCard *foodCard = [[FoodCard alloc]initWithFrame:CGRectMake(0,py , 320, 70)];
         [[foodCard nameLabel]setText:f.name];
         [[self view]addSubview:foodCard];
         [[self viewFoodsArray]addObject:foodCard];
-        [_animator addBehavior:[foodCard gravity]];
-        [_animator addBehavior:[foodCard collision]];
+        [[self gravity]addItem:foodCard];
+        [[self animator]addBehavior:[self gravity]];
+        [[self collision]addItem:foodCard];
+        [[self collision]setTranslatesReferenceBoundsIntoBoundary:YES];
+        [[self animator]addBehavior:[self collision]];
+        
         NSLog(@"main:%@",f.name);
+        
+        py++;
         
         
     }
 }
+
 
 -(void)returnFoodArray:(NSMutableArray *)foodsPickedArray{
     
@@ -74,15 +85,18 @@
 
 - (IBAction)removeFoosViews:(id)sender {
     
-    [_viewFoodsArray removeAllObjects];
+    [[self viewFoodsArray]makeObjectsPerformSelector:@selector(removeFromSuperview)];
+    
 
 }
 
 - (IBAction)transition:(id)sender {
     
-   
+    [[self pickedFoods]removeAllObjects];
+    [_viewFoodsArray removeAllObjects];
     [[self tbvc]setDelegate:self ];
     [self presentViewController:_tbvc animated:YES completion:nil];
+    
 }
 
 -(void)printFoodsFromArray{

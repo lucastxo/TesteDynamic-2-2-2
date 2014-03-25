@@ -44,6 +44,11 @@
     [[self tableView] setFrame:CGRectMake(0, 100, 320, 568)];
 }
 
+-(void)viewDidAppear:(BOOL)animated{
+    
+    [[self foodsPick]removeAllObjects];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

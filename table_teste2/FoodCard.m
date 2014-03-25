@@ -20,12 +20,7 @@
         [[self nameLabel]setTextColor:[UIColor blackColor]];
         [self addSubview:_nameLabel];
         self.backgroundColor = [UIColor orangeColor];
-        _gravity = [[UIGravityBehavior alloc]init];
-        [_gravity addItem:self];
-        _collision = [[UICollisionBehavior alloc]init];
-        [_collision addItem:self];
-        [_collision setTranslatesReferenceBoundsIntoBoundary:YES];
-        
+               
 
         
     }

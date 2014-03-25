@@ -12,7 +12,6 @@
 
 @property UILabel *nameLabel;
 
-@property(nonatomic, strong)UIGravityBehavior *gravity;
-@property(nonatomic,strong)UICollisionBehavior *collision;
+
 
 @end
