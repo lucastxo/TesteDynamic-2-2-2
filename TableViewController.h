@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "foodCard.h"
+#import "foods.h"
 
 @class TableViewController;
 @protocol TableViewControllerDelegate <NSObject>

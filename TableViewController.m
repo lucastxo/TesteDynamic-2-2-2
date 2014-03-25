@@ -34,9 +34,9 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    NSString *salgado = @"Coxinha";
-    NSString *suco = @"Orange juice";
-    NSString *sorvete = @"Magnum";
+    foods *salgado = [[foods alloc]initWithProperties:@"coxinha" andkalories:550 andPrice:5];
+    foods *suco = [[foods alloc]initWithProperties:@"laranja" andkalories:320 andPrice:4];
+    foods *sorvete = [[foods alloc]initWithProperties:@"magnum" andkalories:440 andPrice:3.5];
     
     self.foodsArray = [[NSMutableArray alloc]initWithObjects:salgado,suco,sorvete, nil];
     self.foodsPick = [[NSMutableArray alloc]init];
@@ -80,13 +80,12 @@
     }
     
     // Configure the cell...
-//    NSArray *nameResult = [[NSArray alloc]init];
-//    nameResult = [self.foodsArray valueForKey:@"string"];
+    NSArray *nameResult = [[NSArray alloc]init];
+    nameResult = [self.foodsArray valueForKey:@"name"];
    
     
-    NSString *value = [_foodsArray objectAtIndex:indexPath.row];
     
-    cell.textLabel.text = value;
+    cell.textLabel.text = nameResult [indexPath.row];
     return cell;
 }
 
@@ -94,17 +93,17 @@
     
     NSInteger row = [indexPath row];
     [[self foodsPick]addObject:[[self foodsArray]objectAtIndex:row]];
-//    for (foodCard *f in _foodsPick) {
-//        NSLog(@" foodspick-%@",f.name);
-//    }
+    for (foods *f in _foodsPick) {
+        NSLog(@" foodspick-%@",f.name);
+    }
     NSLog(@"pick %ld",(long)row);
 }
 
 -(UIView*)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
     
     UIView *view = [[UIView alloc]initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 50)];
-    [view setBackgroundColor:[UIColor orangeColor]];
-    UIButton *changeView = [[UIButton alloc]initWithFrame:CGRectMake(10, 25, 50, 20)];
+    UIButton *changeView = [[UIButton alloc]initWithFrame:CGRectMake(10, 10, 50, 50)];
+    [changeView setBackgroundColor:[UIColor blueColor]];
     [changeView setTitle:@"volta" forState:UIControlStateNormal];
     [changeView addTarget:self action:@selector(viewTransitionBack) forControlEvents:UIControlEventTouchDown];
     [view addSubview:changeView];
@@ -118,10 +117,6 @@
 -(void)viewTransitionBack{
     
     [self dismissViewControllerAnimated:YES completion:nil];
-}
-
--(void)viewDidAppear:(BOOL)animated{
-    [_foodsPick removeAllObjects];
 }
 
 
