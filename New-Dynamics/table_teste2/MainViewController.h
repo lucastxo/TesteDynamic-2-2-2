@@ -11,7 +11,7 @@
 #import "FoodCard.h"
 
 
-@interface MainViewController : UIViewController<TableViewControllerDelegate , UIDynamicItem>
+@interface MainViewController : UIViewController<TableViewControllerDelegate , UIDynamicItem, UIDynamicAnimatorDelegate>
 
 @property TableViewController *tbvc;
 

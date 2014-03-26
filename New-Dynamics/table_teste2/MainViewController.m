@@ -16,7 +16,6 @@
 
 
 
-
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -65,7 +64,7 @@
         
         NSLog(@"main:%@",f.name);
         
-        py++;
+        py = py+60;
         
         
     }
@@ -77,24 +76,25 @@
     [[self pickedFoods]addObjectsFromArray:foodsPickedArray ];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
+
 
 - (IBAction)removeFoosViews:(id)sender {
     
     [[self viewFoodsArray]makeObjectsPerformSelector:@selector(removeFromSuperview)];
-    
+    for (UIView *view in _viewFoodsArray) {
+        [[self gravity]removeItem:view];
+        [[self collision]removeItem:view];
+    }
 
 }
+
 
 - (IBAction)transition:(id)sender {
     
     [[self pickedFoods]removeAllObjects];
-    [_viewFoodsArray removeAllObjects];
-    [[self tbvc]setDelegate:self ];
+    [[self viewFoodsArray]removeAllObjects];
+    [[self tbvc]setDelegate:self];
     [self presentViewController:_tbvc animated:YES completion:nil];
     
 }
@@ -108,6 +108,12 @@
     }
     
     
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 @end
