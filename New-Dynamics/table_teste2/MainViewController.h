@@ -22,6 +22,9 @@
 @property(nonatomic, strong) UIGravityBehavior *gravity;
 @property(nonatomic, strong) UICollisionBehavior *collision;
 
+@property int py;
+@property int pickedPosition;
+
 
 
 - (IBAction)removeFoosViews:(id)sender;
